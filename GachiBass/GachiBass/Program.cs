@@ -7,17 +7,19 @@ namespace GachiBass
 {
     class Program
     {
+        private static List<string> allLines = new List<string>();
         static void Main(string[] args)
         {
-            string[] booksLibrariesMaxDaysDays = Reader.ReadLine();
-            string[] scores = Reader.ReadLine();
+            allLines =Reader.ReadLines();
+            string[] booksLibrariesMaxDaysDays = ReadLine();
+            string[] scores = ReadLine();
 
             List<Book> listBooks = new List<Book>();
             List<Library> listLibraries = new List<Library>();
 
-            int nummberOfBooks = 0;
-            int nummberOfLibraries = 0;
-            int maxDaysOfScanning = 0;
+            int nummberOfBooks = Convert.ToInt32(booksLibrariesMaxDaysDays[0]);
+            int nummberOfLibraries = Convert.ToInt32(booksLibrariesMaxDaysDays[1]);
+            int maxDaysOfScanning = Convert.ToInt32(booksLibrariesMaxDaysDays[2]);
             for (int i = 0; i < nummberOfBooks - 1; i++)
             {
                 Book book = new Book();
@@ -28,8 +30,8 @@ namespace GachiBass
             for (int i = 0; i < nummberOfLibraries - 1; i++)
             {
 
-                string[] booksSignupProcessTimeNumberCanShip = Reader.ReadLine();
-                string[] positionBooksInNumberOfBooks = Reader.ReadLine();
+                string[] booksSignupProcessTimeNumberCanShip = ReadLine();
+                string[] positionBooksInNumberOfBooks = ReadLine();
 
                 int signupProcessTime = Convert.ToInt32(booksSignupProcessTimeNumberCanShip[1]);
                 int NumberOfBooksCanShipt = Convert.ToInt32(booksSignupProcessTimeNumberCanShip[2]);
@@ -44,6 +46,12 @@ namespace GachiBass
                 }
                 listLibraries.Add(library);
             }
+        }
+        public static string [] ReadLine()
+        {
+            var firstLine = allLines[0];
+            allLines.RemoveAt(0);
+            return firstLine.Split(" ");
         }
     }
 }
