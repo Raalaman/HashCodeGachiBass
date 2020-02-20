@@ -13,6 +13,7 @@ namespace GachiBass.Models
         public bool SignedUp { get; set; }
         public int SignupProcesTime { get; set; }
         public int NumberOfBooksCanShipt { get; set; }
+        public int NumberBooks { get; set; }
 
         public Library()
         {
