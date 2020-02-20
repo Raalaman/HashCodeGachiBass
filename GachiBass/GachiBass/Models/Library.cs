@@ -11,5 +11,12 @@ namespace GachiBass.Models
         public int Time { get; set; }
         public int MaxScanned { get; set; }
         public bool SignedUp { get; set; }
+        public int SignupProcesTime { get; set; }
+        public int NumberOfBooksCanShipt { get; set; }
+
+        public Library()
+        {
+            Books = new List<Book>();
+        }
     }
 }
