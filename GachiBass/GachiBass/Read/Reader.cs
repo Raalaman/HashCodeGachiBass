@@ -10,7 +10,7 @@ namespace GachiBass.Read
 
         public static string [] ReadLine()
         {
-            using StreamReader sr = new StreamReader("TestFile.txt");
+            using StreamReader sr = new StreamReader("texto.txt");
             string linea = sr.ReadToEnd();
 
             return linea.Split(" ");
