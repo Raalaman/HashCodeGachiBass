@@ -1,0 +1,11 @@
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\bin\Debug\netcoreapp3.1\GachiBass.exe
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\bin\Debug\netcoreapp3.1\GachiBass.deps.json
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\bin\Debug\netcoreapp3.1\GachiBass.runtimeconfig.json
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\bin\Debug\netcoreapp3.1\GachiBass.runtimeconfig.dev.json
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\bin\Debug\netcoreapp3.1\GachiBass.dll
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\bin\Debug\netcoreapp3.1\GachiBass.pdb
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\obj\Debug\netcoreapp3.1\GachiBass.csprojAssemblyReference.cache
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\obj\Debug\netcoreapp3.1\GachiBass.AssemblyInfoInputs.cache
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\obj\Debug\netcoreapp3.1\GachiBass.AssemblyInfo.cs
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\obj\Debug\netcoreapp3.1\GachiBass.dll
+C:\Users\ralamanac\Desktop\GachiBass\GachiBass\GachiBass\obj\Debug\netcoreapp3.1\GachiBass.pdb

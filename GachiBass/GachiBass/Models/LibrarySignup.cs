@@ -8,7 +8,7 @@ namespace GachiBass.Models
     public class LibrarySignup 
     {
         private readonly Object outputLock = new Object();
-        public void SignUpProcess(Libarary libarary, List<Book> books)
+        public void SignUpProcess(Library libarary, List<Book> books)
         {
             if (Monitor.TryEnter(outputLock))
             {

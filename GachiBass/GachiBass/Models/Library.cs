@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GachiBass.Models
 {
-    public class Libarary
+    public class Library
     {
         public string ID { get; set; }
         public List<Book> Books { get; set; }

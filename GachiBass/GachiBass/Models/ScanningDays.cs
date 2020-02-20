@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GachiBass.Models
 {
-    public class Time
+    public class ScanningDays
     {
         public int Days { get; set; }
     }
