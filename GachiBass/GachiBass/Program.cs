@@ -20,14 +20,14 @@ namespace GachiBass
             int nummberOfBooks = Convert.ToInt32(booksLibrariesMaxDaysDays[0]);
             int nummberOfLibraries = Convert.ToInt32(booksLibrariesMaxDaysDays[1]);
             int maxDaysOfScanning = Convert.ToInt32(booksLibrariesMaxDaysDays[2]);
-            for (int i = 0; i < nummberOfBooks - 1; i++)
+            for (int i = 0; i < nummberOfBooks; i++)
             {
                 Book book = new Book();
                 book.Score = Convert.ToInt32(scores[i]);
                 listBooks.Add(book);
             }                       
             
-            for (int i = 0; i < nummberOfLibraries - 1; i++)
+            for (int i = 0; i < nummberOfLibraries; i++)
             {
 
                 string[] booksSignupProcessTimeNumberCanShip = ReadLine();
