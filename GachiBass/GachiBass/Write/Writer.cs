@@ -11,12 +11,11 @@ namespace GachiBass.Write
         {
             using StreamWriter sr = new StreamWriter("OutPut.txt", true);
             sr.WriteLine(line);
-            sr.Flush();
         }
 
-        internal static void DeleteFile()
+        internal static void DeleteFile(string file)
         {
-            File.Delete("OutPut.txt");
+            File.Delete(file);
         }
     }
 }

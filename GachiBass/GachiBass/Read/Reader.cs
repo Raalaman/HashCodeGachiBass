@@ -9,9 +9,9 @@ namespace GachiBass.Read
     public class Reader
     {
 
-        public static List<string> ReadLines()
+        public static List<string> ReadLines(string file)
         {
-            using (StreamReader sr = new StreamReader("texto.txt", Encoding.Default))
+            using (StreamReader sr = new StreamReader(file, Encoding.Default))
             {
                 return ReadLines(sr, '\n').ToList();
             }
